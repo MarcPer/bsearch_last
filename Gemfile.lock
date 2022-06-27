@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.10.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  benchmark-ips
+
+BUNDLED WITH
+   2.3.10
