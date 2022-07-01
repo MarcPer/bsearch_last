@@ -10,7 +10,11 @@ task :build =>[:clean] do
   sh %{make}
 end
 
-task spec: [:build] do
+task spec: [:clean] do
+  puts "Ruby version"
+  sh "ruby -I . spec/bsearch_last_test.rb"
+  Rake::Task["build"].execute
+  puts "C version"
   sh "ruby -I . spec/bsearch_last_test.rb"
 end
 

@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    bsearch_last (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,6 +13,7 @@ PLATFORMS
 
 DEPENDENCIES
   benchmark-ips
+  bsearch_last!
 
 BUNDLED WITH
    2.3.10
